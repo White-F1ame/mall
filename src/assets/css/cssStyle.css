@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #bd3e47;
+    display: flex;
+}
+#header_partOne{
+    width: 200px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+#header_partTwo{
+    flex:1;
+}
+#header_partThree{
+    width: 200px;
+}
+#app-vue-aside{
+    display: flex;
+}
+
